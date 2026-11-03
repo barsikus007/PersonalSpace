@@ -67,7 +67,8 @@ import me.eigenraven.personalspace.world.PersonalWorldProvider;
 
 @Mod(
         modid = "personalspace",
-        version = Tags.VERSION,
+        version = "1.0.41",
+        acceptableRemoteVersions = "*",
         name = PersonalSpaceMod.MODNAME,
         acceptedMinecraftVersions = "[1.7.10]",
         dependencies = "after:utilityworlds;after:appliedenergistics2-core;after:GalaxySpace;after:Thaumcraft")
